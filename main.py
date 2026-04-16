@@ -68,7 +68,7 @@ def shortest_path(graph, start, goal):
             break
 
         unvisited.remove(current)
-        print("current:", current)
+        # print("current:", current)
         if current == goal:
             break
 
@@ -78,8 +78,8 @@ def shortest_path(graph, start, goal):
                 distances[neighbor] = new_cost
                 previous[neighbor] = current
 
-        print("previous:", previous)
-        print("distances:", distances)
+        # print("previous:", previous)
+        # print("distances:", distances)
 
     if distances[goal] == float("inf"):
         return None, None
