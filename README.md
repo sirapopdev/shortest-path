@@ -1,4 +1,4 @@
-# Next Commerce Code Challenge
+# Code Challenge
 
 Python CLI program for finding the shortest path between a start node and a goal node from a CSV graph file.
 
